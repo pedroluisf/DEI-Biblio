@@ -1,0 +1,21 @@
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.dll
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.pdb
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\ResolveAssemblyReference.cache
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.dll
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.dll
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\WSLogisticaSA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.dll
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.pdb
+F:\1 ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.dll
+F:\1 ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.pdb
+F:\1 ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\ResolveAssemblyReference.cache
+F:\1 ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.dll
+F:\1 ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.pdb
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.dll.config
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.dll
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\bin\WSLogisticaSA.pdb
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.csprojResolveAssemblyReference.cache
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.dll
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\WSLogisticaSA\obj\Debug\WSLogisticaSA.pdb

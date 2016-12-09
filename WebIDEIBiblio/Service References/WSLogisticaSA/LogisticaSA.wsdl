@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://dei.isep.ipp.pt/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://dei.isep.ipp.pt/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://dei.isep.ipp.pt/">
+      <s:element name="devolverNomeEmpresa">
+        <s:complexType />
+      </s:element>
+      <s:element name="devolverNomeEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="devolverNomeEmpresaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="calcularDespesasEnvio">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="numeroItens" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="calcularDespesasEnvioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="calcularDespesasEnvioResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="devolverNomeEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:devolverNomeEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="devolverNomeEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:devolverNomeEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="calcularDespesasEnvioSoapIn">
+    <wsdl:part name="parameters" element="tns:calcularDespesasEnvio" />
+  </wsdl:message>
+  <wsdl:message name="calcularDespesasEnvioSoapOut">
+    <wsdl:part name="parameters" element="tns:calcularDespesasEnvioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LogisticaSASoap">
+    <wsdl:operation name="devolverNomeEmpresa">
+      <wsdl:input message="tns:devolverNomeEmpresaSoapIn" />
+      <wsdl:output message="tns:devolverNomeEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="calcularDespesasEnvio">
+      <wsdl:input message="tns:calcularDespesasEnvioSoapIn" />
+      <wsdl:output message="tns:calcularDespesasEnvioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LogisticaSASoap" type="tns:LogisticaSASoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="devolverNomeEmpresa">
+      <soap:operation soapAction="http://dei.isep.ipp.pt/devolverNomeEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularDespesasEnvio">
+      <soap:operation soapAction="http://dei.isep.ipp.pt/calcularDespesasEnvio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LogisticaSASoap12" type="tns:LogisticaSASoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="devolverNomeEmpresa">
+      <soap12:operation soapAction="http://dei.isep.ipp.pt/devolverNomeEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularDespesasEnvio">
+      <soap12:operation soapAction="http://dei.isep.ipp.pt/calcularDespesasEnvio" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LogisticaSA">
+    <wsdl:port name="LogisticaSASoap" binding="tns:LogisticaSASoap">
+      <soap:address location="http://localhost:3609/LogisticaSA.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LogisticaSASoap12" binding="tns:LogisticaSASoap12">
+      <soap12:address location="http://localhost:3609/LogisticaSA.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menuitems>
+
+  <menu>
+    <url>Default.aspx</url>
+    <link>home</link>
+    <description>Página principal de IDEI Biblio</description>
+  </menu>
+
+  <menu>
+    <url>About.aspx</url>
+    <link>acerca</link>
+    <description>Acerca de IDEI Biblio</description>
+  </menu>
+
+  <menu>
+    <url>Categorias.aspx</url>
+    <link>categorias</link>
+    <description>Pesquisa de produtos disponíveis por Categorias</description>
+  </menu>
+
+  <menu>
+    <url>Promocoes.aspx</url>
+    <link>promocoes</link>
+    <description>Veja as promoções do dia</description>
+  </menu>
+
+  <menu>
+    <url>Sugestoes.aspx</url>
+    <link>sugestoes</link>
+    <description>Veja as nossas sugestões para si</description>
+  </menu>
+
+</menuitems>

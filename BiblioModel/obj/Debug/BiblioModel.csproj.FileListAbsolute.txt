@@ -1,0 +1,18 @@
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.dll.config
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.dll
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.pdb
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\obj\Debug\ResolveAssemblyReference.cache
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.dll
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.dll.config
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.dll
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\BiblioModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.dll
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.pdb
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.dll.config
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.dll
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\bin\Debug\BiblioModel.pdb
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.csprojResolveAssemblyReference.cache
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.dll
+I:\ISEP\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\BiblioModel\obj\Debug\BiblioModel.pdb

@@ -1,0 +1,14 @@
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\bin\Debug\ConsoleBiblio.exe
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\bin\Debug\ConsoleBiblio.pdb
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\bin\Debug\BiblioModel.dll
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\bin\Debug\BiblioModel.pdb
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\obj\x86\Debug\ConsoleBiblio.exe
+F:\_Universidade\3 ANO\1 SEM\ARQSI\Trabalho-PraticoII\IDEIBiblio\ConsoleBiblio\obj\x86\Debug\ConsoleBiblio.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\bin\Debug\ConsoleBiblio.exe
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\bin\Debug\ConsoleBiblio.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\bin\Debug\BiblioModel.dll
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\bin\Debug\BiblioModel.pdb
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\obj\x86\Debug\ConsoleBiblio.exe
+C:\Users\PLuis\Dropbox\Meus\IDEIBiblio\ConsoleBiblio\obj\x86\Debug\ConsoleBiblio.pdb

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="calculateShippingFees">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="numberBooks" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="calculateShippingFeesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="calculateShippingFeesResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="calculateShippingFeesSoapIn">
+    <wsdl:part name="parameters" element="tns:calculateShippingFees" />
+  </wsdl:message>
+  <wsdl:message name="calculateShippingFeesSoapOut">
+    <wsdl:part name="parameters" element="tns:calculateShippingFeesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ShippingAllSoap">
+    <wsdl:operation name="calculateShippingFees">
+      <wsdl:input message="tns:calculateShippingFeesSoapIn" />
+      <wsdl:output message="tns:calculateShippingFeesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ShippingAllSoap" type="tns:ShippingAllSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="calculateShippingFees">
+      <soap:operation soapAction="http://tempuri.org/calculateShippingFees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ShippingAllSoap12" type="tns:ShippingAllSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="calculateShippingFees">
+      <soap12:operation soapAction="http://tempuri.org/calculateShippingFees" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ShippingAll">
+    <wsdl:port name="ShippingAllSoap12" binding="tns:ShippingAllSoap12">
+      <soap12:address location="http://localhost/ARQSI/ShippingAll/ShippingAll.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

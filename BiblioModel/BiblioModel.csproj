@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A04C9B70-0A24-47AA-808B-BCC625A5C8EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BiblioModel</RootNamespace>
+    <AssemblyName>BiblioModel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\CategoriaController.cs" />
+    <Compile Include="Controllers\ProdutoController.cs" />
+    <Compile Include="Controllers\PromocaoController.cs" />
+    <Compile Include="Controllers\SugestoesController.cs" />
+    <Compile Include="Service References\WSLogisticaSA\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WSShippingAll\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ServicosExternos\IServicosExternos.cs" />
+    <Compile Include="ServicosExternos\ServicosExternosFactory.cs" />
+    <Compile Include="ServicosExternos\LogisticaSAAdapter.cs" />
+    <Compile Include="ServicosExternos\ShippingAllAdapter.cs" />
+    <Compile Include="DataAccess\ActiveRecord.cs" />
+    <Compile Include="DataAccess\CarrinhoActiveRecord.cs" />
+    <Compile Include="DataAccess\CategoriaActiveRecord.cs" />
+    <Compile Include="DataAccess\EncomendaActiveRecord.cs" />
+    <Compile Include="DataAccess\EncomendaDetalheActiveRecord.cs" />
+    <Compile Include="DataAccess\ClienteActiveRecord.cs" />
+    <Compile Include="DataAccess\PreferenciaActiveRecord.cs" />
+    <Compile Include="DataAccess\ProdutoActiveRecord.cs" />
+    <Compile Include="DataAccess\ConnectionFactory.cs" />
+    <Compile Include="DataAccess\DataAccessObject.cs" />
+    <Compile Include="DataAccess\PromocaoActiveRecord.cs" />
+    <Compile Include="Model\Carrinho.cs" />
+    <Compile Include="Model\Categoria.cs" />
+    <Compile Include="Model\Encomenda.cs" />
+    <Compile Include="Model\EncomendaDetalhe.cs" />
+    <Compile Include="Model\Preferencia.cs" />
+    <Compile Include="Model\Produto.cs" />
+    <Compile Include="Model\Promocao.cs" />
+    <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Logger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\WSLogisticaSA\LogisticaSA.wsdl" />
+    <None Include="Service References\WSShippingAll\ShippingAll.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WSLogisticaSA\" />
+    <WCFMetadataStorage Include="Service References\WSShippingAll\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSLogisticaSA\LogisticaSA.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSLogisticaSA\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSLogisticaSA\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSLogisticaSA\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSShippingAll\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSShippingAll\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSShippingAll\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

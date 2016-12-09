@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="WSIDEI.asmx.cs" Class="WSIDEIBiblio.WSIDEI" %>
