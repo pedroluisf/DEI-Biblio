@@ -1,2 +1,2 @@
 # DEIAlumni
-Academic ASP.NET Project for a online library
+Academic ASP.NET Project for a online book store
