@@ -1,8 +1,10 @@
 # DEI Biblio
 Academic ASP.NET Project for a online book store
 
-This is an academic project with the goal to implement an online book store and allow users to perform purchases.
+This is a project that implements an online book store and allow users to perform purchases.
 The company is called IDEI Biblio and is focused on the sale of books and magazines. This company is implemented in .NET
+
+One important goal of this project is to allow communication between projects that implement different technologies. Communication is done from .NET to PHP, but also the other way around, PHP to .NET.
 
 Customers will have to be logged in in order to perform purchases. The customer adds the selected products on to a cart. This cart is persistent, therefore even if the customer logs out, the information is kept until the next successful login.
 There is an Admin area that allows for product maintenance.
